@@ -1,1 +1,5 @@
-Timestamp: 20170520T210028Z 	  P = 5 T = 5 R = 1
+
+Timestamp: 20170530T191042Z 	  P = 7 T = 7 R = 1
+Timestamp: 20170530T191056Z 	  P = 10 T = 10 R = 8
+Timestamp: 20170530T191120Z 	  P = 11 T = 11 R = 6
+Timestamp: 20170530T191127Z 	  P = 5 T = 5 R = 7
