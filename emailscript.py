@@ -6,8 +6,8 @@ print 'Script demonstrates How To send emails using Python'
 print '==================================================='
 print ''
 
-yLogin = "temitope.oketunji@talktalk.net"
-yPassword = "Salvation3."
+yLogin = "xxxxxxx@talktalk.net"
+yPassword = "xxxxxxxx"
 
 server = smtplib.SMTP('smtp.talktalk.net', 587) #smtp,port number
 server.ehlo()
@@ -16,8 +16,8 @@ server.ehlo()
 
 server.login (yLogin, yPassword)
 
-fromaddr = "temitope.oketunji@talktalk.net"
-toaddr = "temitope.oketunji@talktalk.net"
+fromaddr = "xxxxxx@talktalk.net"
+toaddr = "xxxxxx@talktalk.net"
 subject = "From Python"
 
 
