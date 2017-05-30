@@ -4,8 +4,8 @@ from email.MIMEText import MIMEText
 from email.MIMEBase import MIMEBase
 from email import encoders
  
-fromaddr = "temitope.oketunji@talktalk.net"
-toaddr = "temitope.oketunji@talktalk.net"
+fromaddr = "xxxxxx@talktalk.net"
+toaddr = "xxxxx@talktalk.net"
  
 msg = MIMEMultipart()
  
@@ -29,7 +29,7 @@ msg.attach(part)
  
 server = smtplib.SMTP('smtp.talktalk.net', 587)
 server.starttls()
-server.login(fromaddr, "Salvation3.")
+server.login(fromaddr, "*password*")
 text = msg.as_string()
 server.sendmail(fromaddr, toaddr, text)
 server.quit()
